@@ -1,4 +1,5 @@
 import 'package:demoflutter1/pages/detail_page.dart';
+import 'package:demoflutter1/pages/home_page.dart';
 import 'package:demoflutter1/pages/nacpages/main_page.dart';
 import 'package:demoflutter1/pages/welcome_page.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
     
         primarySwatch: Colors.blue,
       ),
-      home: WelcomePage()
+      home: HomePage()
     );
   }
 }

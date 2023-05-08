@@ -47,7 +47,7 @@ class _MainPageState extends State<MainPage> {
         showUnselectedLabels: false,
         elevation: 0,
         items: const [
-        BottomNavigationBarItem( icon: Icon(Icons.apps),label:"home"),
+        BottomNavigationBarItem( icon: Icon(Icons.apps),label:"home",),
         BottomNavigationBarItem(icon: Icon(Icons.bar_chart_sharp),label:"bar"),
         BottomNavigationBarItem( icon: Icon(Icons.search),label:"search"),
         BottomNavigationBarItem( icon: Icon(Icons.person),label:"My"),
